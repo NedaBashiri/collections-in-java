@@ -25,7 +25,7 @@ public class MapExample {
         for (Map.Entry<String, Country> entry : countryMap.entrySet()) {
             System.out.println("Abbreviation code: " + entry.getKey() + "\n" + "Country: " + entry.getValue().getName() +
                     ", Code: " + entry.getValue().getCountryCode() +
-                    ", Population: " + entry.getValue().getPopulation() + "Abbreviation code: " + entry.getKey());
+                    ", Population: " + entry.getValue().getPopulation());
         }
 
         Country country = countryMap.get("IR");
